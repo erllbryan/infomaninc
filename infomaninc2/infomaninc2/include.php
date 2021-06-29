@@ -1,0 +1,15 @@
+<?php 
+	include_once(dirname(__FILE__).'/functions.php');
+	include_once(dirname(__FILE__).'/ui/footer.php');
+	include_once(dirname(__FILE__).'/ui/navigation.php');
+	include_once(dirname(__FILE__).'/ui/header.php');
+	include_once(dirname(__FILE__).'/ui/sidebar_right.php');
+	include_once(dirname(__FILE__).'/ui/sub_about.php');
+	include_once(dirname(__FILE__).'/ui/sub_nav.php');
+	include_once(dirname(__FILE__).'/ui/services_subs.php');
+	include_once(dirname(__FILE__).'/ui/partners_subs.php');
+	include_once(dirname(__FILE__).'/ui/press_subs.php');
+	include_once(dirname(__FILE__).'/ui/subs.php');
+	include_once(dirname(__FILE__).'/ui/stylex.php');
+	include_once(dirname(__FILE__).'/ui/events_subs.php');
+?>

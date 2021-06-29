@@ -1,0 +1,70 @@
+    *NOTE
+	the changes made done in files can be found at the end of problems taken.
+
+
+
+Changes made on Monday
+
+
+1.The navigation bar is now changed(navigation.php)
+      1.1. Under the solutions module navigation. Added the link for the Human Resource Information Systems(HRIS)
+       1.2. Under the Solutions Module Navigation, Changed the name for the Human Resources to the Payroll Systems.
+        1.3. Under the Services Module, Added the link for the option of Infoman Services.
+        1.4. Under the Partners Module, Link for Partners is changed to a dropdown module.
+        1.5. Under the Partners Module, Added the link for the options of Partnership Overview and Contact Us.
+         1.6. Under the Press Module, Added the link for the option of News.
+
+
+
+2. Information for the Footer at the bottom of the page is changed.(ui/footer.php)
+
+         2.1. Under the Products Footer, Added the Human Resource Information Systems(HRIS).
+         2.2. Under the Products Footer, Changed the name of Human Resources to Payroll Systems.
+         2.3. Under the Services Footer, Added the link for the Infoman Services.
+         2.4. Under the Partners Footer, Added the link for News.
+
+
+3. Changed the Content of the Solutions Module.(subs.php)
+
+          3.1. Changed the content of Payroll Systems to the content of Human Resource Information Systems.
+          3.2. Added the link for the Human Resource Information Systems(HRIS) to the side navigation for all solutions links.(products/prgtrnd.php) 
+
+
+4. Removed the solutions side navigation on the News and trending Module.(news.php)
+
+
+
+
+
+
+
+
+
+Changed at Tuesday
+
+
+
+
+1. On main page, changed the human resource name to payroll systems.(index.php)
+
+2. Changed the copyrights from 2017 to 2019.(footer.php)
+
+3. Changed the Content and link for the progress new on the main page.(index.php)
+
+4. Change the link for the QAD news on the main page.(index.php)
+
+5. Change the Navigation bar on all pages for the News & Trending from a static link to a dropdown link.(navigation.php)
+
+6. Add the side navigation of QAD and progress trend options in the news & trending module(news.php & prgtrnd.php)
+
+7. Change the content of the QAD community trends in the news and trending module.(news.php)
+
+8. Added the content for the Progress trend in the news & trending module.(prgtrnd.php)
+
+9. Checked the fonts
+
+
+
+Changes this Thursday
+
+1. Removed the HrDesk in the slideshow (index.php)
