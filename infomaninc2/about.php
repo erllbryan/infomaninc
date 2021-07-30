@@ -46,6 +46,7 @@
 												<p style="position: relative; left: 49px; top: -20px;">(632) 8 843-2191</p>
 
                                                 <p style="position: relative; top: -30px;"> <!-- <span>Fax:</span> (632)843-2755 -->
+                                                   <p style="position: relative; top: -40px;"><span>Cell No.:</span>  (+63) 9760981661 
                                            <span>Email:</span>  sales@infomaninc.com </p>
                                          
                    </div>

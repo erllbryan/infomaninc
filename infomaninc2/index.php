@@ -245,6 +245,8 @@
 												 <p style="position: relative; left: 41px; top: -10px;"> (632) 8 843-2634</p>
 												<p style="position: relative; left: 41px; top: -20px;">  (632) 8 843-2191</p>
                                                  <p style="position: relative; top: -30px;"><span>Fax:</span>  (632) 843-2755 
+                                                  <p style="position: relative; top: -40px;"><span>Cell No.:</span>  (+63) 9760981661 
+
                                            <br>Email: sales@infomaninc.com</p>
                                             
                                 </div>

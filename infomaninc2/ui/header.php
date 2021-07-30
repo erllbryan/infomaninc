@@ -517,6 +517,34 @@ function getHeader($title) {
     .navbar-default .navbar-toggle .icon-bar{
        background-color:#fff;
     }
+    .cse-search{
+        width: 70px;
+        background-color: #33CC33;
+        position: relative;
+        left:140px;
+        border-radius: 2px 2px 2px 12px;
+    }
+
+button.gsc-search-button {
+        display: block;        
+        border-width: 0px !important;
+        margin: 0px !important;        
+        outline: none;
+        cursor: pointer;
+        box-shadow: none !important;
+        box-sizing: content-box !important;
+        border: 1px solid #33CC33 !important;
+        background-color: #33CC33;
+        border-radius: 2px 12px 2px 12px;
+
+    }
+        
+        button.gsc-search-button::outside {
+            background-color: #0173af;
+        }
+    
+    
+
 
                 </style>
 
@@ -548,19 +576,12 @@ function getHeader($title) {
                     <div class="search-s" >
 
                    <!-- <span  class="search_align" style="border-color:#33cc33;"> -->
-                            <form  target="_blank" action="http://www.google.com/cse" id="cse-search-box">
-                             <!-- <form action="<?php echo base_url('search.php');?>" id="cse-search-box" method='POST'> -->
-                              <div class="col-sm-6 pull-right">
-                                <!-- <input type="hidden" name="cx"  value="000404357537196697350:xjcl-nrf8f0" /> -->
-                                 <input type="hidden" name="cx"  value="013350666132946865273:dirt5_pfa6g" />
-                                <input type="hidden" name="ie" value="UTF-8" />
-                                <input type="text" name="q" size="70" class= "form-control" style="border-color:#33cc33;border-radius: 2px 2px 2px 12px; width:70%;" />
-                                
-                                <input id="border_search" class="button" type="submit" name="sa" value="Search" style="background-color:#33cc33;border-color:#33cc33;width:30%;height:34px;border-radius: 2px 12px 2px 12px;font-size:16px;font-family:Lucida Sans;" />
-                              </div>
-                            </form>
-                            
-                          </span>
+                        <script async src="https://cse.google.com/cse.js?cx=5a96f496ae772f91c"></script>
+                        <div class="gcse-search" ></div>
+
+                        
+
+
                           <!-- Google CSE Search Box Ends -->
                       </div>
                       <!-- ADD SEARCH FORM HERE -->
@@ -571,16 +592,25 @@ function getHeader($title) {
         </div>
     </div>
 </div>
+
 <script>
-  // (function() {
-  //   var cx = '013350666132946865273:dirt5_pfa6g';
-  //   var gcse = document.createElement('script');
-  //   gcse.type = 'text/javascript';
-  //   gcse.async = true;
-  //   gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-  //   var s = document.getElementsByTagName('script')[0];
-  //   s.parentNode.insertBefore(gcse, s);
-  // })();
+window.onload = function () {
+var searchBox = document.getElementById("gsc-i-id1");
+searchBox.placeholder = "";
+searchBox.title = "";
+}
+</script>
+<script>
+
+ //(function() {
+ // var cx = '013350666132946865273:dirt5_pfa6g';
+   //var gcse = document.createElement('script');
+ // gcse.type = 'text/javascript';
+   // gcse.async = true;
+   // gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+   // var s = document.getElementsByTagName('script')[0];
+    //s.parentNode.insertBefore(gcse, s);
+  //})();
 </script>
 <!-- <gcse:search></gcse:search> -->
 

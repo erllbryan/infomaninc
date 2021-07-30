@@ -84,7 +84,7 @@
                                           <i class="fa fa-phone"></i>  Phone:(632) 8 843-2634<br>
 										   <i class="fa fa-phone"></i>  Phone:(632) 8 843-2191<br>
                                            <!-- <i class="fa fa-fax"></i>  Fax:(632)843-2755<br> -->
-                                           <i class="fa fa-tablet"></i>  Cell NO.:(+63)‎9338597701</p></i>
+                                           <i class="fa fa-tablet"></i>  Cell NO.:(+63)9760981661</p></i>
 
                                      </div>
                                       <br><br>
